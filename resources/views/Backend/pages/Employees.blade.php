@@ -1,4 +1,4 @@
 @extends('backend.layouts.app')
 @section('content')
-    <p class="mt-5 menu">Employees</p>
+    <h1 class="mt-4">Employees</h1>
 @endsection

@@ -36,6 +36,10 @@ h3 {
   color: #FF5151;
 }
 
+.nav-item a.active {
+  color: #FF5151;
+}
+
 .tpl-section {
   padding: 10px 50px;
 }
@@ -46,4 +50,9 @@ h3 {
 
 .d-flex.justify-content-between.align-items-center.py-3 {
   border-bottom: 3px solid #f8f9fa;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: 600;
 }/*# sourceMappingURL=main.css.map */
