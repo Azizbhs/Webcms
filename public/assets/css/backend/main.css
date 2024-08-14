@@ -199,11 +199,26 @@ h1 {
 }
 
 .list-group-item {
-  margin-bottom: 5px; /* Adjust the value to the desired gap size */
+  margin-bottom: 5px;
+}
+
+.ann .list-group-item {
+  margin-bottom: 8px !important;
+  padding: 11px 15px;
 }
 
 .list-group-item:last-child {
   margin-bottom: 0; /* Ensure the last item doesn't have extra margin */
+}
+
+.list-group.ann.list-group-flush.mt-3 {
+  max-height: 250px;
+  overflow-y: scroll;
+}
+
+.list-group.sch.list-group-flush.mt-3 {
+  max-height: 312px;
+  overflow-y: scroll;
 }
 
 .status {
