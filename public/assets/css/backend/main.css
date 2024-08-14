@@ -55,4 +55,112 @@ h3 {
 h1 {
   font-size: 26px;
   font-weight: 600;
+}
+
+.cards-container {
+  margin-top: 1rem;
+}
+
+.card {
+  padding: 15px;
+  border-radius: 10px;
+  border: 0px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: flex-start;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+
+.card-title {
+  font-style: poppins;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+.card-num {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.card2-num {
+  font-size: 46px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.graph-card {
+  padding: 15px;
+  border-radius: 10px;
+  border: solid 1px #E0E0E0;
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+}
+
+.graph-container {
+  padding: 15px 0px;
+}
+
+.percentage {
+  font-size: 12px;
+  background-color: #FFEFE7;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.activity {
+  background-color: #1B204A;
+  margin-top: 1rem;
+  border-radius: 10px;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+
+.act-title {
+  padding: 12px 20px;
+  background-color: rgb(15, 24, 77);
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.act-body {
+  padding: 12px 20px;
+  width: 85%;
+}
+
+.act-bottom {
+  padding: 12px 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.act-text {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.btn-danger {
+  background-color: #FF5151;
+  padding: 8px 18px;
+  font-size: 14px;
 }/*# sourceMappingURL=main.css.map */
