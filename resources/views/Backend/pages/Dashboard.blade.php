@@ -50,6 +50,7 @@
         </div>
         <div class = "second-container">
             @include('backend.layouts.components.cards.activity')
+            @include('backend.layouts.components.cards.schedule')
         </div>
     </div>
 @endsection

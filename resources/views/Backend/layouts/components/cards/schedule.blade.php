@@ -1,25 +1,27 @@
-<div class="announcment mt-4">
+<div class="announcment mt-4 col-11">
     <div class=" shadow-sm">
       <div class="card-header d-flex justify-content-between align-items-center">
-        <h5 class="card-title mb-0">Announcement</h5>
+        <h5 class="card-title mb-0">Upcoming Schedule</h5>
         @include('backend.layouts.components.datepicker')
       </div>
       <div class="list-group list-group-flush mt-3">
+        <p class ="status">Priority</p>
         @include('backend.layouts.components.elements.listItem', [
-          'title' => 'Outing schedule for every department',
-          'time' => '5 Minutes ago'
+          'title' => 'Review Candidate applications',
+          'time' => 'Today-11:30 AM'
+        ])
+        <p class ="status">Other</p>
+        @include('backend.layouts.components.elements.listItem', [
+          'title' => 'Interview with candidates',
+          'time' => 'Today-10:30 AM'
         ])
         @include('backend.layouts.components.elements.listItem', [
-          'title' => 'Meeting HR Department',
-          'time' => 'Yesterday, 12:30 PM<'
-        ])
-        @include('backend.layouts.components.elements.listItem', [
-          'title' => 'IT Department need two more talents for UX/UI Designer position',
-          'time' => 'Yesterday, 09:15 AM'
+          'title' => 'Short meeting with product designer from IT Departement',
+          'time' => 'Today-09:15 AM'
         ])
       </div>
       <div class="card-footer text-center">
-        <a href="#" class="text-danger">See All Announcement</a>
+        <a href="#" class="text-danger">Create a new Schedule</a>
       </div>
   </div>
 </div>
