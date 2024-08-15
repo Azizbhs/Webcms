@@ -4,6 +4,7 @@ namespace App\Http\Controllers\BackOffice;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Employee;
 
 class EmployeesController extends Controller
 {
@@ -12,7 +13,8 @@ class EmployeesController extends Controller
      */
     public function index()
     {
-        return view('backend.pages.Employees');
+        $employees = Employee::all();
+        return view('backend.pages.Employees', compact('employees'));
     }
 
     /**
