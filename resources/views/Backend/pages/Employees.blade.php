@@ -23,4 +23,8 @@
         @endforeach
     </tbody>
 </table>
+<div class="flex-row">
+    <button class="button_employee">Add employee</button>
+    <button class="button_employee ms-2">Modify</button>
+</div>
 @endsection

@@ -263,3 +263,14 @@ table th, table td {
 table tbody tr:nth-of-type(odd) {
   background-color: #f9f9f9;
 }
+
+.button_employee{
+  background-color: #ff5151;
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 10px 20px;
+}
+
+.button_employee:hover{
+  background-color: #b43333;
+}
