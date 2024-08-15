@@ -228,3 +228,38 @@ h1 {
   padding: 10px 0px;
   border-top: 1px solid #E0E0E0;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 40px 0 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+table thead tr {
+  background-color: #FF5151;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+table th, table td {
+  padding: 12px 15px;
+}
+
+table tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
