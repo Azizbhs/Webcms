@@ -19,7 +19,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/dashboard', [DashboardController::class, 'index']);
-Route::get('/employees', [EmployeesController::class, 'index']);
+Route::get('/employees', [EmployeesController::class, 'index'])->name('employees.index');
 Route::get('/departments', [DepartmentsController::class, 'index']);
 Route::get('/users', [UsersController::class, 'index']);
 Route::get('/roles', [RolesController::class, 'index']);
+Route::get('/add-employee', [EmployeesController::class, 'create']);
+Route::post('/add-employee', [EmployeesController::class, 'store'])->name('add-employee');

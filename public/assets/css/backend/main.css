@@ -208,7 +208,8 @@ h1 {
 }
 
 .list-group-item:last-child {
-  margin-bottom: 0; /* Ensure the last item doesn't have extra margin */
+  margin-bottom: 0;
+  /* Ensure the last item doesn't have extra margin */
 }
 
 .list-group.ann.list-group-flush.mt-3 {
@@ -259,7 +260,8 @@ table tbody tr:hover {
   background-color: #f1f1f1;
 }
 
-table th, table td {
+table th,
+table td {
   padding: 12px 15px;
 }
 
@@ -276,4 +278,14 @@ table tbody tr:nth-of-type(odd) {
 
 .button_employee:hover {
   background-color: #b43333;
+}
+
+.button_employee a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.page-item:active {
+  background-color: #FF5151 !important;
+  border-color: #FF5151 !important;
 }/*# sourceMappingURL=main.css.map */

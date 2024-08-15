@@ -13,7 +13,7 @@ class EmployeesController extends Controller
      */
     public function index()
     {
-        $employees = Employee::all();
+        $employees = Employee::orderBy('id', 'desc')->paginate(5);
         return view('backend.pages.Employees', compact('employees'));
     }
 
@@ -22,7 +22,7 @@ class EmployeesController extends Controller
      */
     public function create()
     {
-        //
+        return view('backend.pages.form');
     }
 
     /**
@@ -30,7 +30,9 @@ class EmployeesController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $employee = new Employee();
+        $employee->create($request->except('_token' ));
+        return redirect()->route('employees.index');
     }
 
     /**

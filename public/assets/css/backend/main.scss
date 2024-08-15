@@ -57,46 +57,47 @@ h1 {
   font-weight: 600;
 }
 
-.cards-container{
+.cards-container {
   margin-top: 1rem;
 }
 
-.card{
+.card {
   padding: 15px;
   border-radius: 10px;
   border: 0px;
 }
 
-.cards-container{
+.cards-container {
   display: flex;
-  justify-content:flex-start;
+  justify-content: flex-start;
   column-gap: 15px;
 }
 
-.card-title{
+.card-title {
   font-style: poppins;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.5px;
   margin-bottom: 5px;
 }
-.card-num{
+
+.card-num {
   font-size: 36px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-.card2-num{
+.card2-num {
   font-size: 46px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-.card-text{
+.card-text {
   font-size: 14px;
 }
 
-.graph-card{
+.graph-card {
   padding: 15px;
   border-radius: 10px;
   border: solid 1px #E0E0E0;
@@ -105,11 +106,11 @@ h1 {
   justify-content: space-between;
 }
 
-.graph-container{
-  padding : 15px 0px;
+.graph-container {
+  padding: 15px 0px;
 }
 
-.percentage{
+.percentage {
   font-size: 12px;
   background-color: #FFEFE7;
   text-align: center;
@@ -117,13 +118,13 @@ h1 {
   padding: 5px;
 }
 
-.main-container{
+.main-container {
   display: flex;
   flex-direction: row;
   gap: 30px;
 }
 
-.activity{
+.activity {
   background-color: #1B204A;
   margin-top: 1rem;
   border-radius: 10px;
@@ -131,19 +132,19 @@ h1 {
   padding-bottom: 15px;
 }
 
-.act-title{
+.act-title {
   padding: 12px 20px;
   background-color: rgb(15, 24, 77);
   border-radius: 10px;
   font-size: 18px;
 }
 
-.act-body{
+.act-body {
   padding: 12px 20px;
   width: 85%;
 }
 
-.act-bottom{
+.act-bottom {
   padding: 12px 20px;
   margin-top: 10px;
   display: flex;
@@ -152,60 +153,62 @@ h1 {
   justify-content: space-between;
 }
 
-.act-text{
+.act-text {
   font-size: 14px;
   margin-bottom: 0px;
 }
 
-.btn-danger{
+.btn-danger {
   background-color: #FF5151;
   padding: 8px 18px;
   font-size: 14px;
 }
 
-.card-header.d-flex{
+.card-header.d-flex {
   background-color: #ffffff;
 }
 
-.announcment{
- border: 1px solid #E0E0E0;
- border-radius: 10px;
+.announcment {
+  border: 1px solid #E0E0E0;
+  border-radius: 10px;
 }
 
-#datetimepicker{
- width: auto;
+#datetimepicker {
+  width: auto;
 }
 
-.shadow-sm{
+.shadow-sm {
   padding: 10px 20px;
 }
-.list-group-item.d-flex.justify-content-between.align-items-center{
+
+.list-group-item.d-flex.justify-content-between.align-items-center {
   background-color: #FAFAFA;
   border-radius: 10px;
 }
 
-.list-group-item p{
+.list-group-item p {
   font-size: 16px;
   color: #303030;
   margin-bottom: 0px;
 }
 
-.list-group-item small{
+.list-group-item small {
   font-size: 10px;
   color: #686868;
 }
 
 .list-group-item {
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
 }
 
-.ann .list-group-item{
- margin-bottom: 8px !important; 
- padding: 11px 15px;
+.ann .list-group-item {
+  margin-bottom: 8px !important;
+  padding: 11px 15px;
 }
 
 .list-group-item:last-child {
-  margin-bottom: 0; /* Ensure the last item doesn't have extra margin */
+  margin-bottom: 0;
+  /* Ensure the last item doesn't have extra margin */
 }
 
 .list-group.ann.list-group-flush.mt-3 {
@@ -213,18 +216,18 @@ h1 {
   overflow-y: scroll;
 }
 
-.list-group.sch.list-group-flush.mt-3{
+.list-group.sch.list-group-flush.mt-3 {
   max-height: 312px;
   overflow-y: scroll;
 }
 
-.status{
+.status {
   font-size: 12px;
   color: #686868;
   margin: 8px 2px !important;
 }
 
-.card-footer.text-center{
+.card-footer.text-center {
   padding: 10px 0px;
   border-top: 1px solid #E0E0E0;
 }
@@ -256,7 +259,8 @@ table tbody tr:hover {
   background-color: #f1f1f1;
 }
 
-table th, table td {
+table th,
+table td {
   padding: 12px 15px;
 }
 
@@ -264,13 +268,23 @@ table tbody tr:nth-of-type(odd) {
   background-color: #f9f9f9;
 }
 
-.button_employee{
+.button_employee {
   background-color: #ff5151;
   color: #ffffff;
   border-radius: 6px;
   padding: 10px 20px;
 }
 
-.button_employee:hover{
+.button_employee:hover {
   background-color: #b43333;
+}
+
+.button_employee a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.page-item:active{
+  background-color: #FF5151 !important;
+  border-color: #FF5151 !important;
 }
