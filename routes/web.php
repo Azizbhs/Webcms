@@ -25,3 +25,4 @@ Route::get('/users', [UsersController::class, 'index']);
 Route::get('/roles', [RolesController::class, 'index']);
 Route::get('/add-employee', [EmployeesController::class, 'create']);
 Route::post('/add-employee', [EmployeesController::class, 'store'])->name('add-employee');
+Route::delete('/employees/{id}', [EmployeesController::class, 'destroy'])->name('employees.destroy');

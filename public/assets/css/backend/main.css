@@ -285,7 +285,11 @@ table tbody tr:nth-of-type(odd) {
   color: #ffffff;
 }
 
-.page-item:active {
-  background-color: #FF5151 !important;
-  border-color: #FF5151 !important;
+.pagination {
+  --bs-pagination-active-bg: #FF5151;
+  --bs-pagination-active-border-color: #FF5151;
+}
+
+.page-link {
+  color: #ff5151;
 }/*# sourceMappingURL=main.css.map */
