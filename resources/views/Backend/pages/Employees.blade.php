@@ -39,6 +39,5 @@
     {{ $employees->links() }}
     <div class="flex-row">
         <button class="button_employee"><a href="/add-employee">Add Employee</a></button>
-        <button class="button_employee ms-2">Modify</button>
     </div>
 @endsection
